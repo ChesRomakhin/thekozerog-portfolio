@@ -4,5 +4,8 @@ export default {
         white: '#fff',
         blue: '#007ce0',
         navy: '#004175',
+    },
+    typography: {
+        fontFamily: 'Lato'
     }
 }

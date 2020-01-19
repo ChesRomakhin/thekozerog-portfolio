@@ -20,7 +20,8 @@
     "react": "^16.11.0",
     "react-dom": "^16.11.0",
     "styled-components": "^5.0.0",
-    "styled-system": "^5.1.4"
+    "styled-system": "^5.1.4",
+    "@styled-system/space": "^5.1.2"
   },
   "devDependencies": {
     "@babel/core": "^7.8.3",

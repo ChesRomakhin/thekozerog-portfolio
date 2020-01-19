@@ -16,6 +16,6 @@ Text.propTypes = {
     ...propTypes.color,
     ...propTypes.typography,
     ...propTypes.space,
-}
+};
 
 export default Text;

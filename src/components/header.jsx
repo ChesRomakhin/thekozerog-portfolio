@@ -1,9 +1,22 @@
 import React from 'react';
+import styled from "styled-components";
+import { typography, color } from "styled-system";
+import space from '@styled-system/space';
+import propTypes from '@styled-system/prop-types';
 
-export default class Header extends React.Component {
+const Header = styled.h1(
+    {
+        fontFamily: 'Lato',
+    },
+    color,
+    typography,
+    space
+);
 
-    render() {
-        return (<h1>The Kozerog's Portfolio</h1>)
-    }
+Header.propTypes = {
+    ...propTypes.color,
+    ...propTypes.typography,
+    ...propTypes.space,
+};
 
-}
+export default Header;
