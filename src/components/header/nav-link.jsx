@@ -7,7 +7,7 @@ import propTypes from "@styled-system/prop-types";
 const StyledText = styled.p(
   {
     marginLeft: '1em',
-    "& a:visited": {
+    "& a, & a:visited": {
       color: "black"
     },
     "& a:hover": {
