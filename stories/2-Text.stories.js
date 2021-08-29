@@ -1,6 +1,6 @@
 import React from 'react';
 import Text from '../src/components/text';
-import { ThemeProvider } from 'styled-components';
+import { ThemeProvider } from 'emotion-theming';
 import theme from '../src/theme';
 
 
