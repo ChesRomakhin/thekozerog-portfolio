@@ -1,11 +1,11 @@
 import React from "react";
+import Box from "./box";
+import theme from "../theme";
 
-const Gallery = () => (<div style={{
-  height: '1200px',
+const Gallery = () => (<Box background={theme.colors.underConstruction} height={"1200px"} style={{
   opacity: 0.1,
-  background: 'repeating-linear-gradient(45deg, rgb(255, 205, 0) 0px, rgb(255, 205, 0) 5px, black 6px, black 10px)',
 }}>
   under construction
-</div>);
+</Box>);
 
 export default Gallery;

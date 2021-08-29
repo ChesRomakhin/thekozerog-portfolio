@@ -1,18 +1,18 @@
 import React from "react";
-import Header from "./header";
+import Header from "../header";
 import styled from "@emotion/styled";
-import Box from "./box";
+import Box from "../box";
 
 const LogoText = styled.p(
   {
     fontFamily: 'Lato',
     margin: 0,
-    fontWeight: 'bold'
+    fontWeight: 'bold',
   }
 );
 
-const Logo = () => (<Box padding={'0.5em'}>
-  <Header>Anastasia Romakhina</Header>
+const Logo = () => (<Box padding={'0.5em'} flexGrow={1}>
+  <Header>Nastya Romakhina</Header>
   <LogoText>illustrations and art</LogoText>
 </Box>)
 

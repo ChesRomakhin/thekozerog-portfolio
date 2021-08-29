@@ -3,15 +3,17 @@ import {ThemeProvider} from "@emotion/react";
 import theme from '../theme';
 import MainSection from "../components/main-section";
 import Gallery from "../components/gallery";
-import Logo from "../components/logo";
+import HeaderSection from "../components/header/header-section";
+import FooterSection from "../components/footer-section";
 
-export default () => (
+const IndexPage = () => (
   <ThemeProvider theme={theme}>
-    <div>
       <MainSection width={[1, '1200px']}>
-        <Logo/>
+        <HeaderSection/>
         <Gallery/>
+        <FooterSection/>
       </MainSection>
-    </div>
   </ThemeProvider>
 )
+
+export default IndexPage;
