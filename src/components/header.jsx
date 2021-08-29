@@ -7,6 +7,7 @@ import propTypes from '@styled-system/prop-types';
 const Header = styled.h1(
   {
     fontFamily: 'Lato',
+    margin: 0,
   },
   color,
   typography,

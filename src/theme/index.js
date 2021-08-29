@@ -10,13 +10,7 @@ const fonts ={
   header: 'Lato',
 }
 
-const breakpoints = ['40em', '52em', '64em', '80em']
-
-// aliases
-breakpoints.sm = breakpoints[0]
-breakpoints.md = breakpoints[1]
-breakpoints.lg = breakpoints[2]
-breakpoints.xl = breakpoints[3]
+const breakpoints = ['75em']
 
 const theme = {
   breakpoints,
